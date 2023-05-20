@@ -1,0 +1,174 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: "Noto Sans SC", sans-serif;
+}
+
+header {
+  background-color: #111;
+  color: white;
+  height: 80px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+}
+
+nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  width: 100%;
+  max-width: 150px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+}
+
+nav a:hover,
+nav a.active {
+  background-color: #9b4dca;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 80px auto 0;
+  padding: 40px;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+p {
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.join-us {
+  margin-top: 60px;
+}
+
+.join-us h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.join-us p {
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.join-us a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 30px;
+  background-color: #9b4dca;
+  color: white;
+  text-decoration: none;
+  border-radius: 50px;
+  transition: all 0.2s ease-in-out;
+}
+
+.join-us a:hover {
+  background-color: #7c3ab3;
+}
+
+.social-media {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.social-media h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.social-media ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media li:not(:last-child) {
+  margin-right: 40px;
+}
+
+.social-media i {
+  font-size: 2rem;
+  color: #333;
+  transition: all 0.2s ease-in-out;
+}
+
+.social-media a:hover i {
+  transform: scale(1.1);
+  color: #9b4dca;
+}
+
+.chat-room {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.chat-room h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.chat-room p {
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.chat-room button {
+  padding: 12px 38px;
+  background-color: #9b4dca;
+  color: white;
+  border: none;
+  text-decoration: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.chat-room button:hover {
+  background-color: #7c3ab3;
+  transform: scale(1.05);
+}
+
+footer {
+  margin-top: 60px;
+  text-align: center;
+  color: #777;
+}
